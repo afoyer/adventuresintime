@@ -1,12 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ImageContainer from "./ImageContainer";
 
+/**
+ * Book Renders a vertical flexbox with the image, information and buy links (if available) given book information
+ * @param {*} book the book with image, intro, and buy links 
+ */
 function Book({ book }) {
   return (
     <div className="book-container">
       <Link to={`/books/${book.title}`} className="book-info">
         <h3 className="learnMore">Read More</h3>
-        <img className="book-image" src={book.image} alt={book.alt} />
+        <ImageContainer name={book.image} second='jpg' alt={book.title} path='/Images/' cssclass='book-image'/>
       </Link>
       <p className="book-intro text-center">{book.intro}</p>
       {!book.comingsoon && <h2 className="text-center">Buy Now:</h2>}

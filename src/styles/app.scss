@@ -110,7 +110,8 @@ nav {
       margin: 20px 0;
     }
   }
-  .dropdown:hover .dropdown-content {
+  .dropdown:hover .dropdown-content,
+  .dropdown:focus .dropdown-content {
     display: flex;
     flex-direction: column;
     opacity: 1;

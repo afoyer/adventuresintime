@@ -1,7 +1,12 @@
+
+/**
+ * Book data
+ */
 export const books = [
   {
+    //CONFLICTING LOYALTIES
     title: "conflicting_loyalties",
-    image: "/Images/HibberdKline_ConflictingLoyalties.JPG",
+    image: "HibberdKline_ConflictingLoyalties",
     alt: "Conflicting Loyalties",
     intro:
       "News of Fort Sumter divides the officers and men of USS Jamestown on the anti-slaving patrol off West Africa. Abandoned by the U.S. Navy in the British West African port of Freetown, three young Southern officers must lead a handful of Americans home to war.",
@@ -15,8 +20,9 @@ export const books = [
       "https://itunes.apple.com/us/book/conflicting-loyalties/id597681844?ls=1",
   },
   {
+    //FOR ARMS
     title: "for_arms",
-    image: "/Images/HibberdKline_ForArms.jpg",
+    image: "HibberdKline_ForArms",
     alt: "For Arms",
     intro:
       "Marooned in West Africa for their Southern sympathies, Midshipmen Charles Sweet and Henry Lawton Talliaferro, and Marine Corps 2nd Lieutenant Aaron Claverton Bonney make their way to Great Britain and struggle to amass a cargo to run the Blockade without violating British neutrality laws or foiling efforts to purchase a Confederate Navy.",
@@ -25,8 +31,9 @@ export const books = [
       "http://www.thebookpatch.com/BookStore/for-arms/7815da7f-d7eb-436a-b287-e7e07bc91f67?isbn=9781682732687",
   },
   {
+    //HOME AT WAR
     title: "home_at_war",
-    image: "/Images/HibberdKline_HomeAtWar.jpg",
+    image: "HibberdKline_HomeAtWar",
     alt: "Home At War",
     intro:
       "Piercing the Union Blockade with a cargo of war materiel, three young Southern naval officers stumble into the Federal assault upon the Carolina Sounds and a Union blockader commanded by the former owner of their vessel. The result is a powerful secret that could destroy the Northern war effort and the Republican Party, and that entangles them in intrigues from Richmond to Washington.",
