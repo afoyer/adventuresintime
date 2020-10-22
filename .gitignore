@@ -4,16 +4,15 @@
 /node_modules
 /.pnp
 .pnp.js
-#image
+#images
 .jpg
 .png
 .webp
 # testing
 /coverage
-
 # source
 /build
-
+/public/Images/
 # misc
 .DS_Store
 .env.local
